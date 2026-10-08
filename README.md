@@ -1,5 +1,7 @@
 # Agent Sprite Forge
 
+> **General-purpose asset and animation tools:** this fork serves multiple characters and projects. Start with [2.5D Animation Forge](docs/animation-forge.md) for local pose editing, visual timing, preview and PNG handoff, or the upstream sprite/media workflows below. See [general-purpose scope](docs/animation-forge.md#general-purpose-scope) for the distinction between tool capabilities, examples and project requirements. The [offline Other workflow](docs/other-workflow.md) is a project-specific adapter for reference checks, move cards and authored 60 Hz exposures. Other and Louis are consumers of the tool, not its scope boundary. No private game artwork or design briefs are bundled here.
+
 Languages: [English](./README.md) | [繁體中文](./README.zh-TW.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md)
 
 <p align="center">
