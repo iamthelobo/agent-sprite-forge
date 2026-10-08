@@ -2,6 +2,8 @@
 
 This fork adds a bounded adapter to Agent Sprite Forge. It prepares and checks a project brief, then packages **existing PNG poses** into a reviewable handoff. It does not generate artwork, spend provider credits, approve a pose or import into Unreal. The existing MIT license and upstream tools remain intact.
 
+This is the optional **Other project adapter**, not the scope of the whole Forge. Its expected guide layout, stance gates, move cards and art-review defaults apply when using this workflow for Other or a project deliberately adopting that contract. [Animation Forge's general-purpose scope](animation-forge.md#general-purpose-scope) covers reusable authoring across characters and projects. The editor currently reuses this adapter's PNG/timing exporter; that does not make Other's creative rules universal or require a Louis-specific brief.
+
 ## Commands
 
 Run from this checkout with Python 3.10+ and Pillow. All reference paths in a brief are relative to the supplied project workspace; CLI output paths must stay inside that workspace. These examples use a placeholder character brief. Supply the real current brief, an explicitly requested deliverable and its treatment.

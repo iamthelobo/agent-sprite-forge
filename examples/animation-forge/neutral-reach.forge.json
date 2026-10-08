@@ -1,0 +1,283 @@
+{
+  "schema": "other-animation-forge.v1",
+  "name": "Neutral reach \u2014 original authoring fixture",
+  "rig_version": "adult-mannequin.v1",
+  "renderer_version": "ortho-cel.v1",
+  "source": {
+    "kind": "authored",
+    "description": "Original synthetic neutral reach/return keys; no imported motion or game rig.",
+    "rate": null
+  },
+  "gameplay": {
+    "status": "unassigned",
+    "rate": 60
+  },
+  "exposure_rate": 60,
+  "loop_policy": "cycle",
+  "poses": [
+    {
+      "id": "neutral",
+      "label": "Neutral",
+      "controls": {
+        "right_hand": [
+          6.0,
+          23.0,
+          96.0
+        ],
+        "left_hand": [
+          1.0,
+          -23.0,
+          96.0
+        ],
+        "right_foot": [
+          14.0,
+          12.0,
+          7.0
+        ],
+        "left_foot": [
+          -12.0,
+          -12.0,
+          7.0
+        ],
+        "right_wrist": 0.0,
+        "left_wrist": 0.0
+      }
+    },
+    {
+      "id": "lift",
+      "label": "Lift",
+      "controls": {
+        "right_hand": [
+          29.0,
+          24.0,
+          124.0
+        ],
+        "left_hand": [
+          1.0,
+          -23.0,
+          96.0
+        ],
+        "right_foot": [
+          14.0,
+          12.0,
+          7.0
+        ],
+        "left_foot": [
+          -12.0,
+          -12.0,
+          7.0
+        ],
+        "right_wrist": 15.0,
+        "left_wrist": 0.0
+      }
+    },
+    {
+      "id": "reach",
+      "label": "Reach",
+      "controls": {
+        "right_hand": [
+          49.0,
+          20.0,
+          145.0
+        ],
+        "left_hand": [
+          1.0,
+          -23.0,
+          96.0
+        ],
+        "right_foot": [
+          14.0,
+          12.0,
+          7.0
+        ],
+        "left_foot": [
+          -12.0,
+          -12.0,
+          7.0
+        ],
+        "right_wrist": 30.0,
+        "left_wrist": 0.0
+      }
+    },
+    {
+      "id": "return",
+      "label": "Return",
+      "controls": {
+        "right_hand": [
+          25.0,
+          23.0,
+          115.0
+        ],
+        "left_hand": [
+          1.0,
+          -23.0,
+          96.0
+        ],
+        "right_foot": [
+          14.0,
+          12.0,
+          7.0
+        ],
+        "left_foot": [
+          -12.0,
+          -12.0,
+          7.0
+        ],
+        "right_wrist": 10.0,
+        "left_wrist": 0.0
+      }
+    }
+  ],
+  "exposures": [
+    {
+      "pose_id": "neutral",
+      "duration_ticks": 24
+    },
+    {
+      "pose_id": "lift",
+      "duration_ticks": 8
+    },
+    {
+      "pose_id": "reach",
+      "duration_ticks": 18
+    },
+    {
+      "pose_id": "return",
+      "duration_ticks": 10
+    }
+  ],
+  "baseline": {
+    "poses": [
+      {
+        "id": "neutral",
+        "label": "Neutral",
+        "controls": {
+          "right_hand": [
+            6.0,
+            23.0,
+            96.0
+          ],
+          "left_hand": [
+            1.0,
+            -23.0,
+            96.0
+          ],
+          "right_foot": [
+            14.0,
+            12.0,
+            7.0
+          ],
+          "left_foot": [
+            -12.0,
+            -12.0,
+            7.0
+          ],
+          "right_wrist": 0.0,
+          "left_wrist": 0.0
+        }
+      },
+      {
+        "id": "lift",
+        "label": "Lift",
+        "controls": {
+          "right_hand": [
+            29.0,
+            24.0,
+            124.0
+          ],
+          "left_hand": [
+            1.0,
+            -23.0,
+            96.0
+          ],
+          "right_foot": [
+            14.0,
+            12.0,
+            7.0
+          ],
+          "left_foot": [
+            -12.0,
+            -12.0,
+            7.0
+          ],
+          "right_wrist": 15.0,
+          "left_wrist": 0.0
+        }
+      },
+      {
+        "id": "reach",
+        "label": "Reach",
+        "controls": {
+          "right_hand": [
+            49.0,
+            20.0,
+            145.0
+          ],
+          "left_hand": [
+            1.0,
+            -23.0,
+            96.0
+          ],
+          "right_foot": [
+            14.0,
+            12.0,
+            7.0
+          ],
+          "left_foot": [
+            -12.0,
+            -12.0,
+            7.0
+          ],
+          "right_wrist": 30.0,
+          "left_wrist": 0.0
+        }
+      },
+      {
+        "id": "return",
+        "label": "Return",
+        "controls": {
+          "right_hand": [
+            25.0,
+            23.0,
+            115.0
+          ],
+          "left_hand": [
+            1.0,
+            -23.0,
+            96.0
+          ],
+          "right_foot": [
+            14.0,
+            12.0,
+            7.0
+          ],
+          "left_foot": [
+            -12.0,
+            -12.0,
+            7.0
+          ],
+          "right_wrist": 10.0,
+          "left_wrist": 0.0
+        }
+      }
+    ],
+    "exposures": [
+      {
+        "pose_id": "neutral",
+        "duration_ticks": 24
+      },
+      {
+        "pose_id": "lift",
+        "duration_ticks": 8
+      },
+      {
+        "pose_id": "reach",
+        "duration_ticks": 18
+      },
+      {
+        "pose_id": "return",
+        "duration_ticks": 10
+      }
+    ]
+  }
+}
