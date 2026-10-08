@@ -1,5 +1,7 @@
 # Agent Sprite Forge
 
+> **Other fork:** start with the [offline Other workflow](docs/other-workflow.md). It adds explicit sheet/pose handoffs, project-reference checks, visible move cards and authored 60 Hz visual exposures. The upstream automatic sprite-set flow below retains its general defaults; it is not the Other production workflow. No private game artwork or design briefs are included here.
+
 Languages: [English](./README.md) | [繁體中文](./README.zh-TW.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md)
 
 <p align="center">
